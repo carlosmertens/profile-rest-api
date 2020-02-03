@@ -86,3 +86,7 @@ class HelloViewSet(viewsets.ViewSet):
     def partial_update(self, request, pk=None):
         """Update an object replacing only fields required"""
         return Response({'http_method': 'PATCH'})
+
+    def destroy(self, request, pk=None):
+        """Delete an object"""
+        return Response({'http_method': 'DELETE'})
