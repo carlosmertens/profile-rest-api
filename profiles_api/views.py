@@ -74,3 +74,7 @@ class HelloViewSet(viewsets.ViewSet):
                 serializer.errors,
                 status=status.HTTP_400_BAD_REQUEST
             )
+
+    def retrieve(self, request, pk=None):
+        """Get an object by ID"""
+        return Response({'http_method': 'GET'})
