@@ -82,3 +82,7 @@ class HelloViewSet(viewsets.ViewSet):
     def update(self, request, pk=None):
         """Update an object replacing all fields"""
         return Response({'http_method': 'PUT'})
+
+    def partial_update(self, request, pk=None):
+        """Update an object replacing only fields required"""
+        return Response({'http_method': 'PATCH'})
