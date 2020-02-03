@@ -54,8 +54,8 @@ class HelloViewSet(viewsets.ViewSet):
         """Return a list of API view set fearures and 'Hello! message'"""
         a_viewset = [
             'Uses actions (list, create, retrieve, update, partial update)',
-            'Automatically maps to URL using Routers';
-            'Provides more functionality with less code'
+            'Automatically maps to URL using Routers',
+            'Provides more functionality with less code',
         ]
 
         return Response({'message': 'Hello!', 'a_viewset': a_viewset})
