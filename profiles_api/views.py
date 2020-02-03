@@ -32,3 +32,15 @@ class HelloApiView(APIView):
                 serializer.errors,
                 status=status.HTTP_400_BAD_REQUEST
             )
+
+    def put(self, request, pk=None):
+        """Update an object replacing all fields"""
+        return Response({'method': 'PUT'})
+
+    def patch(self, request, pk=None):
+        """Update an object replacing only fields selected"""
+        return Response({'method': 'PATCH'})
+
+    def delete(self, request, pk=None):
+        """Delete an object"""
+        return Response('method': 'DELETE')
