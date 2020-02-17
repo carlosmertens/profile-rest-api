@@ -24,7 +24,7 @@ Profile app created with the following technology:
 - Atom
 - Git
 - GitHub
-- ModHeader
+- ModHeader (Get token: http://ec2-18-191-163-235.us-east-2.compute.amazonaws.com/api/login/)
 4. Deployment
 - AWS
 - Ubuntu-bionic-18.04-amd64
