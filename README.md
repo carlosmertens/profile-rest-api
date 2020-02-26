@@ -28,3 +28,14 @@ Profile app created with the following technology:
 4. Deployment
 - AWS
 - Ubuntu-bionic-18.04-amd64
+
+## Author
+
+- **Carlos Mertens** - _Python/Machine Learning Developer_
+
+## Acknowledgment
+
+- _**Mark Winterbottom - Full Stack Software Engineer and Instructor**_
+- _**Photos from Unsplash Website**_
+- _**Icons from Flaticon Website**_
+
