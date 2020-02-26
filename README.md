@@ -10,18 +10,17 @@ Project demonstrates basic back-end skills to create a profile Rest API where us
 
 Projected was deployed to AWS.
 
-## Tools
+## Technologies
 
 Profile app created with the following technology:
-1. Development Server
+1. Development Server Tools
 - Vagrant
 - VirtualBox
-2. Application Code
-- Python 3
+2. Programming language and Framework Tool 
+- Python
 - Django
 - Django Rest Framework
-3. Tools
-- Atom
+3. Version Control Tools
 - Git
 - GitHub
 - ModHeader (Get token: http://ec2-18-191-163-235.us-east-2.compute.amazonaws.com/api/login/)
@@ -36,6 +35,3 @@ Profile app created with the following technology:
 ## Acknowledgment
 
 - _**Mark Winterbottom - Full Stack Software Engineer and Instructor**_
-- _**Photos from Unsplash Website**_
-- _**Icons from Flaticon Website**_
-
